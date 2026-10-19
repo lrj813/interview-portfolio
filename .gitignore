@@ -6,3 +6,6 @@ github-pages.zip
 
 # 本地服务器日志等
 *.log
+
+# 本地解压副本，正式网站位于 dist/
+github-pages/

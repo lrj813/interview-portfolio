@@ -1,8 +1,10 @@
-# 梁瑞杰的个人网站
+# 梁瑞杰 · 产品与思考
 
 [访问个人网站](https://lrj813.github.io/interview-portfolio/)
 
-面向面试展示的中文个人网站。纯 HTML、CSS 和 JavaScript，无构建依赖。暂不展示项目、履历或未经提供的工作成果。个人介绍与产品思考为可修改的初版文案。
+面向面试展示的个人网站。杂志编辑风，包含个人介绍、个人项目、文章、工具和联系入口。纯 HTML、CSS、JavaScript，无构建依赖。
+
+目前内容整理自 [GitHub 个人简介](https://github.com/lrj813/lrj813)，可继续替换。项目截图与文章链接用于呈现公开实践，不代表商业客户成果。
 
 ## 本地查看
 
@@ -10,24 +12,25 @@
 
 ## 修改内容
 
-- `dist/index.html`：姓名、简介、产品思考、GitHub 链接。
-- `dist/style.css`：布局、配色与移动端样式。
-- `dist/script.js`：导航当前区域提示。
+**正式发布源目录是 `dist/`。** `github-pages/` 是早期压缩包的解压副本，不参与发布。不要只改解压副本。
 
-字体有本地系统字体回退，无需外部 API、账号或密钥。
+- `dist/index.html`：封面、姓名、个人介绍、工具、联系方式和导航。
+- `dist/content.js`：项目与文章。修改数组即可调整展示顺序；新增条目会自动渲染。
+- `dist/assets/`：项目配图。截图来自本人公开项目；LifeOS 当前配图为历史设计过程稿。
+- `dist/style.css`：排版、配色与手机样式。中文衬线使用 Noto Serif SC，字体加载失败时回退宋体和系统字体。
+- `dist/script.js`：内容渲染、手机目录、复制邮箱和导航提示。
+
+所有资源路径均为相对路径，适用于 GitHub Pages 的项目子目录。
 
 ## GitHub Pages
 
 网站地址：https://lrj813.github.io/interview-portfolio/
 
-本仓库通过 GitHub Actions 自动发布 `dist/` 中的静态网页，不需要上传或解压压缩包。
+通过 GitHub Actions 自动发布 `dist/`，无需上传或解压压缩包。
 
-- 修改网站：编辑 `dist/` 里的 HTML、CSS 或 JavaScript 文件，然后提交到 `main`。
-- 自动发布：推送后，GitHub 的 Actions 页面会显示部署进度。
-- 手动发布：在 Actions 中选择 `Deploy personal website to GitHub Pages`，点击 Run workflow。
-- 发布设置：Settings → Pages → Source 选择 GitHub Actions。
-- 仓库展示：About 中的 Website 使用上面的网站地址。
+- 推送 `dist/` 的修改到 `main`，网站自动更新。
+- 在 Actions 中选择 `Deploy personal website to GitHub Pages`，可手动 Run workflow。
+- Settings → Pages → Source 保持 GitHub Actions。
+- 仓库 About 中的网站地址保持上面的 URL。
 
-可放入个人主页 README 的链接：
-
-[我的个人网站](https://lrj813.github.io/interview-portfolio/)
+个人主页 README 可添加 `[我的个人网站](https://lrj813.github.io/interview-portfolio/)`。
