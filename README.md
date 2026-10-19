@@ -1,5 +1,7 @@
 # 梁瑞杰的个人网站
 
+[访问个人网站](https://lrj813.github.io/interview-portfolio/)
+
 面向面试展示的中文个人网站。纯 HTML、CSS 和 JavaScript，无构建依赖。暂不展示项目、履历或未经提供的工作成果。个人介绍与产品思考为可修改的初版文案。
 
 ## 本地查看
@@ -16,9 +18,16 @@
 
 ## GitHub Pages
 
-1. 在 GitHub 创建 `lrj813.github.io` 仓库。
-2. 将 `dist/` 里面的四个文件放在仓库根目录。
-3. 在 Settings → Pages 选择 Deploy from a branch，选择 main 分支和 /(root)。
-4. 发布完成后将 https://lrj813.github.io 放在 GitHub 个人简介的 Website 字段或个人主页 README 中。
+网站地址：https://lrj813.github.io/interview-portfolio/
 
-可放入 README 的链接：`[我的个人网站](https://lrj813.github.io)`。该地址需在 GitHub Pages 实际发布成功后使用。
+本仓库通过 GitHub Actions 自动发布 `dist/` 中的静态网页，不需要上传或解压压缩包。
+
+- 修改网站：编辑 `dist/` 里的 HTML、CSS 或 JavaScript 文件，然后提交到 `main`。
+- 自动发布：推送后，GitHub 的 Actions 页面会显示部署进度。
+- 手动发布：在 Actions 中选择 `Deploy personal website to GitHub Pages`，点击 Run workflow。
+- 发布设置：Settings → Pages → Source 选择 GitHub Actions。
+- 仓库展示：About 中的 Website 使用上面的网站地址。
+
+可放入个人主页 README 的链接：
+
+[我的个人网站](https://lrj813.github.io/interview-portfolio/)
