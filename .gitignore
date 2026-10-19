@@ -1,0 +1,8 @@
+# 临时打包文件
+github-pages.zip
+
+# macOS
+.DS_Store
+
+# 本地服务器日志等
+*.log
