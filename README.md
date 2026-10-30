@@ -1,10 +1,10 @@
 # 梁瑞杰 · 产品与思考
 
-[访问个人网站](https://lrj813.github.io/interview-portfolio/)
+[访问个人网站](https://Liang-Ruijie.github.io/interview-portfolio/)
 
 面向面试展示的个人网站。杂志编辑风，包含个人介绍、个人项目、文章、工具和联系入口。纯 HTML、CSS、JavaScript，无构建依赖。
 
-目前内容整理自 [GitHub 个人简介](https://github.com/lrj813/lrj813)，可继续替换。项目截图与文章链接用于呈现公开实践，不代表商业客户成果。
+目前内容整理自 [GitHub 个人简介](https://github.com/Liang-Ruijie/Liang-Ruijie)，可继续替换。项目截图与文章链接用于呈现公开实践，不代表商业客户成果。
 
 ## 本地查看
 
@@ -24,7 +24,7 @@
 
 ## GitHub Pages
 
-网站地址：https://lrj813.github.io/interview-portfolio/
+网站地址：https://Liang-Ruijie.github.io/interview-portfolio/
 
 通过 GitHub Actions 自动发布 `dist/`，无需上传或解压压缩包。
 
@@ -33,4 +33,4 @@
 - Settings → Pages → Source 保持 GitHub Actions。
 - 仓库 About 中的网站地址保持上面的 URL。
 
-个人主页 README 可添加 `[我的个人网站](https://lrj813.github.io/interview-portfolio/)`。
+个人主页 README 可添加 `[我的个人网站](https://Liang-Ruijie.github.io/interview-portfolio/)`。
