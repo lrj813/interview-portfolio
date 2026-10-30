@@ -9,7 +9,7 @@ window.portfolioContent = {
       description: '围绕日常问题的 AI 指南问答 Demo。将指南检索、会话摘要与问题回访串联起来，探索从获得建议到持续跟进的产品体验。',
       tags: ['指南问答', '长期会话摘要', '问题回访'],
       note: '静态 Demo 展示交互；真实模型调用需本地部署。',
-      demo: 'https://lrj813.github.io/LifeOS/', github: 'https://github.com/lrj813/LifeOS'
+      demo: 'https://Liang-Ruijie.github.io/LifeOS/', github: 'https://github.com/Liang-Ruijie/LifeOS'
     },
     {
       number: '02', name: '掌上英雄联盟', english: 'A GAME SERVICE EXPERIENCE CONCEPT',
@@ -19,7 +19,7 @@ window.portfolioContent = {
       description: '以召唤师的一局游戏旅程为主线，组织战绩、资讯、赛事、英雄资料、攻略与下载入口，探索游戏服务的信息架构与交互体验。',
       tags: ['用户旅程', '信息架构', '交互设计'],
       note: '非官方、非商业的静态概念演示；游戏素材版权归原权利人。',
-      demo: 'https://lrj813.github.io/lol-concept-site/', github: 'https://github.com/lrj813/lol-concept-site'
+      demo: 'https://Liang-Ruijie.github.io/lol-concept-site/', github: 'https://github.com/Liang-Ruijie/lol-concept-site'
     }
   ],
   articles: [
